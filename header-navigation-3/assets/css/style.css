@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.nav_row{
+    background: #eb272e;
+}
+.p_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+.nav_menu_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p_nav .nav_menu_left .nav_img img{
+    width: 150px;
+    margin-right: 70px;
+}
+.nav_menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+}
+.nav_menu ul li{
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav_menu ul li a span img{
+    height: 20px;
+    margin-right: 10px;
+}
+.nav_menu ul li:nth-child(n){
+    padding: 0 20px;
+    border-right: 1px solid #ef575d;
+}
+.nav_menu ul li:nth-last-child(1){
+    padding-right: 0px;
+    border-right: none;
+}
+.menu_underline{
+    height: 2px;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #ffae00;
+    visibility: hidden;
+}
+.nav_menu ul li:hover > .menu_underline{
+    visibility: visible;
+}
+.nav_menu ul li a select{
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav_menu ul li a select:focus-visible{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.nav_menu ul li a select option{
+    color: #000000;
+}
+.nav_menu_right ul li .cart_image{
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px -5px #fcfbfb;
+    position: relative;
+}
+.cart_notification{
+    position: absolute;
+    background: #4caf50;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transform: translate(-70%, -70%);
+}
+.nav_menu_right ul li a img{
+    height: 20px;
+    width: 20px;
+}

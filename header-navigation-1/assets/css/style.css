@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.nav_buttons button{
+    height: 70px;
+    width: 225px;
+}
+.header_section{
+    height: 890px;
+    background-color: #c00a27;
+}
+.nav_up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 35px 0;
+    border-bottom: 1px solid #cb334b;
+}
+.nav .nav_up .nav_img img{
+    width: 200px;
+}
+.nav_menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+}
+.nav_menu ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.nav_menu ul li:nth-child(n){
+    padding-right: 20px;
+}
+.nav_menu ul li:nth-last-child(1){
+    padding-right: 0px;
+}
+.menu_underline{
+    height: 2px;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #ffae00;
+    visibility: hidden;
+}
+.nav_menu ul li:hover > .menu_underline{
+    visibility: visible;
+}
+.nav_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_buttons .btn_call_us{
+    padding-right: 20px;
+    color: #ffae00;
+    text-align: right;
+    font-size: 19px;
+}
+.nav_buttons .btn_call_us .call_us_up select{
+    background: transparent;
+    border: none;
+    color: #ffffff;
+}
+.nav_buttons .btn_call_us .call_us_up select:focus-visible{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.nav_buttons .btn_call_us .call_us_up select option{
+    color: #000000;
+}
+.call_us_number a{
+    color: #ffffff;
+    font-size: 37px;
+}
+.btn_cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    background: #8ca93e;
+    border-radius: 50px;
+}
+.btn_cart img{
+    height: 25px;
+    margin-right: 10px;
+}
+.nav_down{
+    width: 100%;
+    padding: 35px 0;
+}
+.nav_down .nav_options ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.nav_down .nav_options ul li{
+    list-style: none;
+}
+.nav_down .nav_options ul li a img{
+    height: 45px;
+    padding-right: 20px;
+}
